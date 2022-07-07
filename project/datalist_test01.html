@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<title>유튜브 실습</title>
+<meta charset = "utf-8">
+
+</head>
+
+
+<body>
+<br>
+나라 : <input type="text" list="countries">
+			<datalist id="countries">
+				<option value="가나">
+				<option value="스위스">
+				<option value="브라질">
+				<option value="한국">
+			</datalist>
+보고싶은것 : <input type="text" list="what"><br>
+	<datalist id="what">
+	<option value="산">
+	<option value="바다">
+	<option value="도시">
+	</datalist>
+
+	<input type="button"
+	name="버튼이름"
+	value="문자열">
+	
+	<button type="button"
+	name="버튼이름"
+	value="문자열">
+	</button>
+	<!--버튼은 시작태그와 종료태그가 있다.-->
+	<!--속성 중 버튼은 자바스크립트와 연동할 목적으로 사용한다.-->
+	
+	<br><br><br><br><br>
+	<h3>버튼을 만들자</h3>	
+
+<form>
+
+<!--자바스크립트와 연동, 창이 뜸-->
+<button type="button"
+onclick="javascript:alert('안녕')">
+버튼을 눌러주세요.
+</button>
+<br>
+
+	<hr>
+
+</form>
+검색:<input type="text" size="10" value="">
+<input type="button" value="Q1">
+<input type="button">Q2</button><br>
+submit 버튼: <input type="submit" value="전송1">
+<button type="submit">전송2</button><br>
+reset 버튼: <input type="reset" value="리셋1">
+<button type="reset">리셋2</button><br>
+이미지 버튼: <input type="image" src="" size="10px"alt="이미지 버튼">
+</button><br>
+
+
+<br><br><br>
+<h3>체크박스 만들기</h3>
+<hr>
+<form>
+<!--checkbox는 여러개 선택-->
+<input type="checkbox" name="checkbox" value="1" checked>짜장면&nbsp;&nbsp;
+<input type="checkbox" name="checkbox" value="2" checked> 짬뽕&nbsp;&nbsp;
+<input type="checkbox" name="checkbox" value="3"> 탕수육 &nbsp;&nbsp;
+<br>
+ <!--name값을 똑같이 주면 배열으로 저장됨-->
+ 
+ 
+ <!--radio버튼은 택1-->
+ <label>
+ <input type="radio" name="china" value="1"> <!--label : 글씨 눌러도 선택됨-->
+ 짜장면<img src=""><br></label>
+ <label>
+  <input type="radio" name="china" value="1">
+ 짬뽕<img src=""><br></label>
+  <input type="radio" name="china" value="1">
+ 탕수육<img src=""><br>
+ 
+ 
+ 
+ <br><br><br>
+ <select name="china" multiple>
+ <option value="1"> 짜장면</option>
+ <option value="2"selected> 짬뽕</option>
+ <option value="3"> 탕수육</option>
+ <option value="4">잡채밥</option>
+ </select>
+</form>
+
+
+
+<form>
+<table>
+<tr>
+<td><label for="aa">사용자ID : </label></td><td><label><input id="aa" type="text"></label></td>
+</tr>
+</table>
+
+</form>
+
+
+</form>
+</body>
+</html>

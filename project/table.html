@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title>표 만들기</title>
+<meta charset = "utf-8">
+
+<style>
+td{
+padding : 10px;
+text-alim : center;
+}
+table, td{
+border-collapse : collapse;
+#aaa{
+	color : red;
+	background : gray;
+	}
+
+</style>
+</head>
+
+<body>
+<table border = "2" align="center">
+<caption>나의 시간표</caption>
+<tr id="aaa"><td>교시</td><td>월요일</td><td>화요일</td><td>수요일</td><td>목요일</td><td>금요일</td><td>토요일</td><td>일요일</td>
+</tr>
+<tr><th>1교시</th><td rowspan = "10">공강</td><td rowspan = "2">웹프로그래밍실습</td><td rowspan = "10">공강</td><td rowspan = "2">스마트네트워크실습</td>
+<td rowspan = "4">자바프로그래밍</td><td rowspan="10">아르바이트</td><td rowspan="10">아르바이트</td>
+</tr>
+
+<tr><th>2교시</th>
+</tr>
+<tr><th>3교시</th><td rowspan = "2">스마트네트워크실습</td><td rowspan = "2">웹프로그래밍실습</td>
+</tr>
+<tr><th>4교시</th>
+</tr>
+<tr><th>5교시</th> <td rowspan = "2">점심시간</td><td colspan = "2" rowspan = "2">점심시간</td>
+</tr>
+<tr><th>6교시</th>
+</tr>
+<tr><th>7교시</th> <td rowspan = "4">공강</td><td rowspan = "4">웹DB와빅데이터실습</td><td rowspan = "4">임베디드설계입문</td>
+</tr>
+<tr><th>8교시</th> 
+</tr>
+<tr><th>9교시</th> 
+</tr>
+<tr><th>10교시</th>
+</tr>
+</table>
+</body>
+</html>

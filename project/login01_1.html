@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<meta charset ="utf-8">
+
+<head>
+<title>로그인 폼 만들기 과제</title>
+<style>
+form{
+	margin : 0 auto;
+	width : 400px;
+	
+	background : mistyrose;
+	font-weight : bold;
+	font-size : 18px;
+	margin-top : 80px;
+	}
+	
+input[type=submit]{
+	background-color : pink;
+	font-weight : bold;
+	float:right;
+	padding:15px 0 15px 0;
+	width:100px;
+}
+
+#block1
+{
+float:left;
+}
+</style>
+</head>
+
+<body>
+
+
+<h3>회원가입</h3>
+<hr>
+<form method="post">
+<fieldset style="width:350px;">
+	<legend>회원정보</legend>
+
+	아이디<br> <input type="text" name="id" maxlength="15" size="15" value=""><br>
+	비밀 번호<br>  <input type="password" name="pw" maxlength="15" size="15" value=""><br>
+	비밀 번호 재확인<br>  <input type="password" name="pw" maxlength="15" size="15" value=""><br><br>
+	이름<br> <input type="text" name="name" maxlength="15" size="15" value=""><br>
+	생년월일<br> <input type="date"><br>
+	성별<br>
+		<select name="성별">
+	<option value="0" selected>성별</option>
+		<option value="1">남</option>
+		<option value="2">여</option>
+		</select><br>
+		
+	휴대전화<br> <select name="휴대전화">
+		<option value="0" selected>010</option>
+		<option value="1">011</option>
+		<option value="6">016</option>
+		<option value="7">017</option>
+		<option value="9">019</option>
+		</select>
+	<input type="text" maxlength="9" size="10" value=""><br>
+
+	
+
+	
+
+			<input type="submit" value="가입하기">
+</form><br>
+	
+
+	
+</body>
+</html>
